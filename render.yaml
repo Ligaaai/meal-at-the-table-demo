@@ -2,5 +2,5 @@ services:
   - type: web
     name: meal-at-the-table-demo
     runtime: static
-    buildCommand: test -s dist/index.html
-    staticPublishPath: ./dist
+    buildCommand: test -s docs/index.html
+    staticPublishPath: ./docs
